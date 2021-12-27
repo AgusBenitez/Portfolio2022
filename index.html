@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Agustín Benitez - Front end Developer. Estudiante de Diseño gráfico">
+    <meta name="keywords" content="web, design, diseño, front, desarrollo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agustin Benitez</title>
+    <!--Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--        NavBar        -->
+    <nav>
+        <div class="container">
+            <a href="#" class="nav-brand">Agustín Benitez</a>
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="about-btn" href="#">About me</a></li>
+                <li><a class="skills-btn" href="#">Skills</a></li>
+                <li><a class="trabajos-btn" href="#">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="menu-responsive">
+        <li><a class="sidenav-close about-btn" href="#">About me</a></li>
+        <li><a class="sidenav-close skills-btn" href="#">Skills</a></li>
+        <li><a class="sidenav-close trabajos-btn" href="#">Projects</a></li>
+    </ul>
+
+    <!--       End NavBar        -->
+
+    <!--         Intro           -->
+
+    <section class="intro">
+        <div class="container row">
+            <a href="#">
+                <h1 class="col s10 offset-s1">Agustín Benitez</h1>
+            </a>
+            <p>Trainee Front End Developer.</p>
+
+            <a id="btn-intro"
+                class="col s4 l2 offset-l5 offset-s4 intro-button waves-effect waves-light btn">Explore</a>
+        </div>
+        <div class="btn-whatsapp">
+            <a href="https://wa.me/4915750072529">
+                <img src="media/img/Whatsapp.svg" alt="icono Whatsapp">
+            </a>
+        </div>
+    </section>
+
+    <!--       End Intro         -->
+
+    <!--        About            -->
+
+    <section id="about-me" class="def-section bg-gray">
+        <div class="container row">
+            <h2 class="col s10 l12 offset-s1 ">About me</h2>
+            <p class="col l7">Hello! My name is Agustín, I am 25 years old and I am from Buenos Aires, Argentina. At the
+                moment I am living in Berlin, Germany. I discovered the world of web design and development on March
+                2021 and since then I knew that I wanted to venture into that field. I studied Front end Development at
+                CoderHouse, taking the courses corresponding to Web Development, Javascript and React JS.<br>
+                I am characterized by my perseverance, curiosity, empathy and quick adaptation to changes. I always go
+                for more.</p>
+            <img src="media/img/me.jpg" alt="imagen de presentación">
+        </div>
+    </section>
+
+    <!--        End About        -->
+
+    <!--        Skills           -->
+
+    <section id="skills" class="def-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-ul">
+                <li>
+                    <h6><b>HTML5</b></h6>
+                    <img src="media/img/htmlicon.svg" alt="icono HTML">
+                </li>
+                <li>
+                    <h6><b>Javascript</b></h6>
+                    <img src="media/img/jsicon.svg" alt="icono JS">
+                </li>
+                <li>
+                    <h6><b>CSS3</b></h6>
+                    <img src="media/img/css3icon.svg" alt="icono CSS3">
+                </li>
+                <li>
+                    <h6><b>SASS</b></h6>
+                    <img src="media/img/sassicon.svg" alt="icono SASS">
+                </li>
+                <li>
+                    <h6><b>Bootstrap</b></h6>
+                    <img src="media/img/bsicon.svg" alt="icono BS">
+                </li>
+                <li>
+                    <h6><b>Git</b></h6>
+                    <img src="media/img/giticon.svg" alt="icono Git">
+                </li>
+                <li>
+                    <h6><b>Github</b></h6>
+                    <img src="media/img/githubicon.svg" alt="icono Github">
+                </li>
+                <li>
+                    <h6><b>Jquery</b></h6>
+                    <img src="media/img/jqueryicon.svg" alt="icono jquery">
+                </li>
+            </ul>
+            <p class="center">
+                I work on the basis of <b>responsive design, mobile first</b> and I also know <b>BEM methodology and SEO
+                    principles.</b><br>
+                I keep training constantly on the mentioned tools, and also exploring new ones to continue incorporating
+                variants.</p>
+        </div>
+    </section>
+
+    <div id="trabajos" class="parallax-container">
+        <div class="parallax">
+            <img class="parallax-img" src="media/img/imgParallax.jpg" alt="imagen de fondo parallax">
+        </div>
+        <h2>Projects</h2>
+    </div>
+
+    <!--       Projects         -->
+
+    <section class="projects def-section">
+        <div class="projects-info container row">
+            <h3>HB Automatización</h3>
+            <p class="center col l6 offset-l3">
+                I developed the website of the company "HB Industrial Automation", which provides assembly, repair,
+                maintenance, consulting and training services in several industries.
+                The project is mobile first and the tools used were <span>HTML, CSS, SCSS, Javascript and
+                    Bootstrap.</span>
+            </p>
+
+            <div>
+                <img class="carousel-item-img" src="
+                    media/img/HBiphone.PNG" alt="prototipo de web en iphone">
+            </div>
+        </div>
+
+        <div class="container projects-div-buttons">
+            <a href="https://github.com/AgusBenitez/proyectomf-coder"
+                class="projects-button waves-effect waves-light btn">Repository</a>
+            <a href="https://agusbenitez.github.io/proyectomf-coder/"
+                class="projects-button waves-effect waves-light btn">Website</a>
+        </div>
+    </section>
+
+    <section class="projects def-section bg-gray white-text">
+        <div class="projects-info container row">
+            <h3>Todo Fútbol</h3>
+            <p class="center col l4 offset-l4">
+                In this case, I did the development of an e-commerce which is dedicated to selling football jerseys.
+                The website is responsive and the tools used were <span>HTML, CSS, Javascript and Bootstrap.</span>
+            </p>
+
+            <div>
+                <img class="carousel-item-img" src="media/img/iph8plustf.PNG" alt="prototipo de web en iphone">
+            </div>
+        </div>
+
+        <div class="container projects-div-buttons">
+            <a href="https://github.com/AgusBenitez/TodoFutbol"
+                class="projects-button-rev waves-effect waves-light btn">Repository</a>
+            <a href="https://agusbenitez.github.io/TodoFutbol/"
+                class="projects-button-rev waves-effect waves-light btn">Website</a>
+        </div>
+    </section>
+
+    <section class="projects def-section">
+        <div class="projects-info container row">
+            <h3>E-commerce</h3>
+            <p class="center col l6 offset-l3">
+                This was the project which I did for my React JS course. It is an e-commerce that sells mobile phones.
+                I am still working on it and I have been using <span>Javascript, React JS and CSS.</span>
+            </p>
+
+            <div>
+                <img class="mac" src="media/img/appreactmac.png" alt="prototipo de web en ipad">
+            </div>
+        </div>
+
+        <div class="container projects-div-buttons">
+            <a href="https://github.com/AgusBenitez/appreact-agustinbenitez"
+                class="projects-button waves-effect waves-light btn">Repository</a>
+            <a href="https://agusbenitez.github.io/proyectomf-coder/"
+                class="projects-button waves-effect waves-light btn">Website</a>
+        </div>
+    </section>
+
+
+
+    <!--      End Projects       -->
+
+    <!--      Footer           -->
+
+    <footer>
+        <div class="footer-info">
+            <h4>Agustín Benitez</h4>
+            <p>agnbenitez1@gmail.com</p>
+        </div>
+
+        <ul class="footer-list">
+            <li><a href="#">Home</a></li>
+            <li><a class="about-btn" href="#">About me</a></li>
+            <li><a class="skills-btn" href="#">Skills</a></li>
+            <li><a class="trabajos-btn" href="#">Projects</a></li>
+        </ul>
+    </footer>
+
+
+    <!--     Scripts             -->
+
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
